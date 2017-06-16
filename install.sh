@@ -4,13 +4,28 @@ brew install zsh zsh-completions
 brew install tig
 brew install vim
 brew install autojump
+brew install git
 
 ### Install applications with brew cask ###
 
+brew cask install dropbox
+brew cask install google-drive
 brew cask install hammerspoon
 brew cask install flux
 brew cask install docker
 brew cask install sublime-text
+brew cask install spotify
+brew cask install firefox
+brew cask install transmit
+brew cask install slack
+brew cask install vlc
+brew cask install screenhero
+brew cask install postman
+brew cask install postico
+brew cask install base
+brew cask install sequel-pro
+brew cask install discord
+brew cask install atom
 
 ### macOS specific settings ###
 
