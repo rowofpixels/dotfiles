@@ -3,6 +3,7 @@
 brew install zsh zsh-completions
 brew install tig
 brew install vim
+brew install autojump
 
 ### Install applications with brew cask ###
 
