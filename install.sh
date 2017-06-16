@@ -2,12 +2,14 @@
 
 brew install zsh zsh-completions
 brew install tig
+brew install vim
 
 ### Install applications with brew cask ###
 
 brew cask install hammerspoon
 brew cask install flux
 brew cask install docker
+brew cask install sublime-text
 
 ### macOS specific settings ###
 
