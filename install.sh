@@ -5,6 +5,7 @@ brew install tig
 brew install vim
 brew install autojump
 brew install git
+brew install tmux
 
 ### Install applications with brew cask ###
 
