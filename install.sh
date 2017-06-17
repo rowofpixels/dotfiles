@@ -26,6 +26,7 @@ brew cask install base
 brew cask install sequel-pro
 brew cask install discord
 brew cask install atom
+brew cask install visual-studio-code
 
 ### macOS specific settings ###
 
