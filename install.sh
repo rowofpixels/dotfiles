@@ -28,6 +28,7 @@ brew cask install sequel-pro
 brew cask install discord
 brew cask install atom
 brew cask install visual-studio-code
+brew cask install transmission
 
 ### macOS specific settings ###
 

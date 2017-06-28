@@ -3,3 +3,4 @@
 	email = matthew@rowofpixels.com
 [core]
 	editor = vim
+	excludesfile = /Users/matthew/.gitignore
