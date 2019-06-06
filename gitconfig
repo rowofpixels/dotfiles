@@ -2,5 +2,6 @@
 	name = Matthew Steiner
 	email = matthew@rowofpixels.com
 [core]
-	editor = vim
+	editor = nvim
 	excludesfile = /Users/matthew/.gitignore
+	pager = cat

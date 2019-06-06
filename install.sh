@@ -1,32 +1,35 @@
 ### Install brew packages ###
 
+brew tap thoughtbot/formulae
+
+brew install rcm
 brew install zsh zsh-completions
 brew install tig
-brew install vim
+brew install nvim
 brew install autojump
 brew install git
 brew install tmux
 
 ### Install applications with brew cask ###
 
+brew cask install daisydisk
+brew cask install bartender
+brew cask install iterm2
 brew cask install dropbox
-brew cask install google-drive
+brew cask install google-backup-and-sync 
 brew cask install hammerspoon
-brew cask install flux
 brew cask install docker
-brew cask install sublime-text
 brew cask install spotify
+brew cask install google-chrome
 brew cask install firefox
 brew cask install transmit
 brew cask install slack
 brew cask install vlc
-brew cask install screenhero
 brew cask install postman
 brew cask install postico
 brew cask install base
 brew cask install sequel-pro
 brew cask install discord
-brew cask install atom
 brew cask install visual-studio-code
 brew cask install transmission
 

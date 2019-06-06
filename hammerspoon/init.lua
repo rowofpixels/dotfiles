@@ -131,6 +131,34 @@ modalSimpleHotkey('g', function(frame, max)
   return frame
 end)
 
+modalSimpleHotkey('f', function(frame, max)
+  frame.w = max.w / 3 * 2
+  return frame
+end)
+
+modalSimpleHotkey('h', function(frame, max)
+  frame.x = max.x + (max.w / 3)
+  frame.w = max.w / 3 * 2
+  return frame
+end)
+
+modalSimpleHotkey('j', function(frame, max)
+  frame.w = max.w / 3
+  return frame
+end)
+
+modalSimpleHotkey('k', function(frame, max)
+  frame.x = max.x + (max.w / 3)
+  frame.w = max.w / 3
+  return frame
+end)
+
+modalSimpleHotkey('l', function(frame, max)
+  frame.x = max.x + (max.w / 3 * 2)
+  frame.w = max.w / 3
+  return frame
+end)
+
 modalHotkey('[', function(window, frame, screen)
   if screen:toWest() then
     window:moveOneScreenWest()
